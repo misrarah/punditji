@@ -8,7 +8,7 @@ import Booking from './pages/Booking'
 
 export default function App() {
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '')}>
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-1">
