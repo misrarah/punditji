@@ -43,18 +43,7 @@ const services = [
     desc: 'The first head-shaving ceremony for a child, usually performed between ages one and three. Considered a rite of passage that cleanses the soul of past lives and ushers in good health.',
     icon: '🌸',
   },
-  {
-    name: 'Vivah Puja',
-    sanskrit: 'विवाह पूजा',
-    desc: 'Pre-wedding and wedding ceremonies conducted according to Vedic traditions including Haldi, Mehendi, and the Saptapadi (seven vows). Full or partial wedding rituals available.',
-    icon: '💍',
-  },
-  {
-    name: 'Shradh & Pitru Paksha',
-    sanskrit: 'श्राद्ध / पितृ पक्ष',
-    desc: 'Ancestral rites performed to honour and offer peace to departed souls. Includes Pind Daan, tarpan, and specific prayers during Pitru Paksha or on the death anniversary.',
-    icon: '🙏',
-  },
+
   {
     name: 'Rudrabhishek',
     sanskrit: 'रुद्राभिषेक',

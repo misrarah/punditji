@@ -30,8 +30,8 @@ export default function Footer() {
           <h4 className="font-semibold text-amber-100 mb-3 tracking-wide uppercase text-xs">Contact</h4>
           <ul className="text-sm space-y-2">
             <li>
-              <a href="tel:+447XXXXXXXXX" className="hover:text-gold-400 transition-colors">
-                +44 7XXX XXX XXX
+              <a href="tel:+447778177386" className="hover:text-gold-400 transition-colors">
+                +44 7778 177386
               </a>
             </li>
             <li>

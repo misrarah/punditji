@@ -5,8 +5,8 @@ const contactMethods = [
   {
     icon: '📞',
     label: 'Call or WhatsApp',
-    value: '+44 7XXX XXX XXX',
-    href: 'tel:+447XXXXXXXXX',
+    value: '+44 7778 177386',
+    href: 'tel:+447778177386',
     note: 'Monday – Sunday, 8 am – 9 pm',
   },
   {
@@ -188,8 +188,7 @@ export default function Booking() {
                   <option>Annaprasan</option>
                   <option>Namkaran</option>
                   <option>Mundan / Chudakarana</option>
-                  <option>Vivah Puja</option>
-                  <option>Shradh & Pitru Paksha</option>
+
                   <option>Rudrabhishek</option>
                   <option>Navratri Puja & Jagran</option>
                   <option>Bespoke / Custom Puja</option>

@@ -19,7 +19,7 @@ const photos = [
   {
     src: temple,
     alt: 'Pundit Ji at the temple',
-    caption: 'Pundit Ji at the temple with deities',
+    caption: 'Pundit Ji at VHP Ilford temple',
   },
   {
     src: ceremony3,
