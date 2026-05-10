@@ -1,10 +1,14 @@
 import { useState } from 'react'
 import portrait from '../assets/IMG_5934.JPG'
-import ceremony1 from '../assets/IMG_6144.JPG'
-import ceremony2 from '../assets/IMG_6145.JPG'
 import ceremony3 from '../assets/IMG_6146.JPG'
 import altar from '../assets/IMG_2024.jpeg'
 import temple from '../assets/IMG_0724.jpeg'
+import gsHawanKund from '../assets/gs_hawan_kund.jpeg'
+import gsAltarVishnu from '../assets/gs_altar_vishnu.jpeg'
+import gsSetupFloor1 from '../assets/gs_setup_floor1.jpeg'
+import gsSetupFloor2 from '../assets/gs_setup_floor2.jpeg'
+import gsAltarLakshmi from '../assets/gs_altar_lakshmi.jpeg'
+import gsHawanFlames from '../assets/gs_hawan_flames.jpeg'
 
 const photos = [
   {
@@ -13,14 +17,9 @@ const photos = [
     caption: 'Pundit Alabhaya Tiwari',
   },
   {
-    src: ceremony1,
-    alt: 'Hawan ceremony',
-    caption: 'Performing Hawan – sacred fire ritual',
-  },
-  {
-    src: ceremony2,
-    alt: 'Puja with sacred flame',
-    caption: 'Aarti and mantra chanting',
+    src: temple,
+    alt: 'Pundit Ji at the temple',
+    caption: 'Pundit Ji at the temple with deities',
   },
   {
     src: ceremony3,
@@ -33,9 +32,34 @@ const photos = [
     caption: 'Beautifully arranged puja altar',
   },
   {
-    src: temple,
-    alt: 'Pundit Ji at the temple',
-    caption: 'Pundit Ji at the temple with deities',
+    src: gsHawanKund,
+    alt: 'Grah Shanti hawan with sacred fire',
+    caption: 'Grah Shanti – hawan with sacred fire',
+  },
+  {
+    src: gsAltarVishnu,
+    alt: 'Satyanarayan puja altar',
+    caption: 'Satyanarayan puja altar at a Yajmaan\'s home',
+  },
+  {
+    src: gsSetupFloor1,
+    alt: 'Grah Shanti puja setup',
+    caption: 'Grah Shanti puja setup with agni',
+  },
+  {
+    src: gsSetupFloor2,
+    alt: 'Grah Shanti decorated altar',
+    caption: 'Grah Shanti – decorated altar with flowers and offerings',
+  },
+  {
+    src: gsAltarLakshmi,
+    alt: 'Lakshmi puja altar setup',
+    caption: 'Lakshmi puja setup with banana leaves and fresh flowers',
+  },
+  {
+    src: gsHawanFlames,
+    alt: 'Grah Shanti Hawan with Agni',
+    caption: 'Grah Shanti Hawan – Agni with deity blessings',
   },
 ]
 
@@ -96,7 +120,6 @@ export default function Gallery() {
             >
               ×
             </button>
-            {/* Prev / Next */}
             <button
               className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-12 text-white text-4xl hover:text-gold-400 hidden sm:block"
               onClick={() => setLightbox((lightbox - 1 + photos.length) % photos.length)}
