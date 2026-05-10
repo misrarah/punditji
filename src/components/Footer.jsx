@@ -7,7 +7,7 @@ export default function Footer() {
         {/* Brand */}
         <div>
           <p className="text-2xl mb-1">ॐ</p>
-          <h3 className="font-bold text-amber-100 text-lg">Pandit Alabhaya Tiwari</h3>
+          <h3 className="font-bold text-amber-100 text-lg">Pundit Alabhaya Tiwari</h3>
           <p className="text-sm mt-1 text-amber-300">Hindu Puja Services<br />Greater London</p>
         </div>
 
@@ -45,7 +45,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-maroon-600 text-center py-4 text-xs text-amber-400">
-        © {new Date().getFullYear()} Pandit Alabhaya Tiwari. All rights reserved.
+        © {new Date().getFullYear()} Pundit Alabhaya Tiwari. All rights reserved.
       </div>
     </footer>
   )

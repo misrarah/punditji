@@ -9,8 +9,8 @@ import temple from '../assets/IMG_0724.jpeg'
 const photos = [
   {
     src: portrait,
-    alt: 'Pandit Alabhaya Tiwari',
-    caption: 'Pandit Alabhaya Tiwari',
+    alt: 'Pundit Alabhaya Tiwari',
+    caption: 'Pundit Alabhaya Tiwari',
   },
   {
     src: ceremony1,
@@ -34,8 +34,8 @@ const photos = [
   },
   {
     src: temple,
-    alt: 'Pandit Ji at the temple',
-    caption: 'Pandit Ji at the temple with deities',
+    alt: 'Pundit Ji at the temple',
+    caption: 'Pundit Ji at the temple with deities',
   },
 ]
 
@@ -49,7 +49,7 @@ export default function Gallery() {
         <p className="text-gold-400 uppercase tracking-widest text-xs font-semibold mb-2">ॐ</p>
         <h1 className="text-4xl font-bold mb-3">Gallery</h1>
         <p className="text-amber-300 max-w-xl mx-auto text-sm">
-          A glimpse into the sacred ceremonies performed by Pandit Ji across Greater London.
+          A glimpse into the sacred ceremonies performed by Pundit Ji across Greater London.
         </p>
       </div>
 

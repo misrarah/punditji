@@ -20,7 +20,7 @@ export default function Home() {
           <div className="flex-1 text-center md:text-left">
             <p className="text-gold-400 uppercase tracking-widest text-sm mb-3 font-semibold">ॐ नमः शिवाय</p>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
-              Pandit Alabhaya Tiwari
+              Pundit Alabhaya Tiwari
             </h1>
             <p className="text-xl text-amber-200 mb-2">Hindu Pundit · Greater London</p>
             <p className="text-amber-300 max-w-md mx-auto md:mx-0 mb-8 leading-relaxed">
@@ -47,7 +47,7 @@ export default function Home() {
           <div className="flex-shrink-0 w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-gold-400 shadow-2xl bg-maroon-600">
             <img
               src={portrait}
-              alt="Pandit Alabhaya Tiwari"
+              alt="Pundit Alabhaya Tiwari"
               className="w-full h-full object-cover"
             />
           </div>
@@ -56,7 +56,7 @@ export default function Home() {
 
       {/* Why choose section */}
       <section className="max-w-6xl mx-auto px-4 py-16">
-        <h2 className="text-center text-3xl font-bold text-maroon-700 mb-2">Why Choose Pandit Ji?</h2>
+        <h2 className="text-center text-3xl font-bold text-maroon-700 mb-2">Why Choose Pundit Ji?</h2>
         <p className="text-center text-stone-500 mb-12 max-w-xl mx-auto">
           A trusted name in the Hindu community across Greater London for traditional and heartfelt ceremonies.
         </p>
@@ -77,22 +77,22 @@ export default function Home() {
           <div className="flex-shrink-0 w-full md:w-96 h-64 rounded-2xl overflow-hidden shadow-lg bg-stone-200">
             <img
               src={temple}
-              alt="Pandit Ji at the temple"
+              alt="Pundit Ji at the temple"
               className="w-full h-full object-cover object-top"
             />
           </div>
           <div>
-            <p className="text-gold-600 uppercase tracking-widest text-xs font-semibold mb-2">About Pandit Ji</p>
+            <p className="text-gold-600 uppercase tracking-widest text-xs font-semibold mb-2">About Pundit Ji</p>
             <h2 className="text-3xl font-bold text-maroon-700 mb-4">Rooted in Tradition, Present in London</h2>
             <p className="text-stone-600 leading-relaxed mb-4">
-              Pandit Alabhaya Tiwari is a learned Hindu priest with deep knowledge of Vedic scriptures,
+              Pundit Alabhaya Tiwari is a learned Hindu priest with deep knowledge of Vedic scriptures,
               Sanskrit mantras, and the ancient traditions of Sanatan Dharma. Having served the Hindu
               community in Greater London for many years, he brings sincerity, precision, and devotion
               to every ceremony he leads.
             </p>
             <p className="text-stone-600 leading-relaxed mb-6">
               Whether it is a joyous Grah Pravesh to bless your new home, an Annaprasan for your child,
-              or a Satyanarayan Katha for the whole family, Pandit Ji ensures every ritual is conducted
+              or a Satyanarayan Katha for the whole family, Pundit Ji ensures every ritual is conducted
               with complete vidhi and the right spiritual intent.
             </p>
             <Link to="/services" className="inline-block bg-maroon-700 hover:bg-maroon-800 text-amber-50 font-semibold px-6 py-2.5 rounded-full transition-colors">

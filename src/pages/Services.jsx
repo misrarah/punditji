@@ -70,7 +70,7 @@ const services = [
   {
     name: 'Bespoke & Custom Pujas',
     sanskrit: 'विशेष पूजा',
-    desc: 'Have a specific deity, occasion, or family tradition in mind? Pandit Ji can conduct a wide range of additional pujas and ceremonies tailored to your family\'s needs and regional customs.',
+    desc: 'Have a specific deity, occasion, or family tradition in mind? Pundit Ji can conduct a wide range of additional pujas and ceremonies tailored to your family\'s needs and regional customs.',
     icon: '⭐',
   },
 ]
@@ -83,7 +83,7 @@ export default function Services() {
         <p className="text-gold-400 uppercase tracking-widest text-xs font-semibold mb-2">ॐ</p>
         <h1 className="text-4xl font-bold mb-3">Puja & Ritual Services</h1>
         <p className="text-amber-300 max-w-xl mx-auto text-sm leading-relaxed">
-          Pandit Alabhaya Tiwari is experienced in conducting all major Hindu pujas, samskaras,
+          Pundit Alabhaya Tiwari is experienced in conducting all major Hindu pujas, samskaras,
           and ceremonies with traditional Vedic methods across Greater London.
         </p>
       </div>
@@ -109,7 +109,7 @@ export default function Services() {
       <section className="bg-saffron-50 border-t border-amber-200 py-14 text-center">
         <h2 className="text-2xl font-bold text-maroon-700 mb-3">Ready to Book?</h2>
         <p className="text-stone-600 mb-6 max-w-md mx-auto text-sm">
-          Contact Pandit Ji to discuss your requirements, check availability, and arrange a ceremony
+          Contact Pundit Ji to discuss your requirements, check availability, and arrange a ceremony
           that is meaningful for your family.
         </p>
         <Link

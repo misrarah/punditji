@@ -18,7 +18,7 @@ export default function Navbar() {
         <NavLink to="/" className="flex items-center gap-2 text-amber-100 hover:text-gold-400 transition-colors">
           <span className="text-2xl leading-none">ॐ</span>
           <div>
-            <p className="text-base font-bold tracking-wide leading-tight">Pandit Alabhaya Tiwari</p>
+            <p className="text-base font-bold tracking-wide leading-tight">Pundit Alabhaya Tiwari</p>
             <p className="text-xs text-amber-300 tracking-widest uppercase">Hindu Puja Services · London</p>
           </div>
         </NavLink>

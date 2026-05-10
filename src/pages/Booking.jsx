@@ -54,7 +54,7 @@ export default function Booking() {
         <h1 className="text-4xl font-bold mb-3">Book a Puja</h1>
         <p className="text-amber-300 max-w-xl mx-auto text-sm leading-relaxed">
           To arrange a ceremony, get in touch directly or fill in the enquiry form below.
-          Pandit Ji will confirm availability and discuss all the details with you personally.
+          Pundit Ji will confirm availability and discuss all the details with you personally.
         </p>
       </div>
 
@@ -88,7 +88,7 @@ export default function Booking() {
               <h3 className="font-bold text-maroon-700">Online Availability Calendar</h3>
             </div>
             <p className="text-stone-600 text-sm leading-relaxed">
-              An interactive calendar to check Pandit Ji's availability and request specific
+              An interactive calendar to check Pundit Ji's availability and request specific
               dates online is coming soon. For now, please call or message directly to confirm
               your preferred date.
             </p>
@@ -112,7 +112,7 @@ export default function Booking() {
               <span className="text-5xl block mb-4">🙏</span>
               <h3 className="font-bold text-green-800 text-xl mb-2">Thank You!</h3>
               <p className="text-green-700 text-sm leading-relaxed">
-                Your enquiry has been received. Pandit Ji will be in touch with you within 24 hours
+                Your enquiry has been received. Pundit Ji will be in touch with you within 24 hours
                 to confirm the details of your ceremony.
               </p>
             </div>
