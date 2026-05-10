@@ -5,7 +5,7 @@ import altar from '../assets/IMG_2024.jpeg'
 import temple from '../assets/IMG_0724.jpeg'
 import gsHawanKund from '../assets/gs_hawan_kund.jpeg'
 import gsAltarVishnu from '../assets/gs_altar_vishnu.jpeg'
-import gsSetupFloor1 from '../assets/gs_setup_floor1.jpeg'
+
 import gsSetupFloor2 from '../assets/gs_setup_floor2.jpeg'
 import gsAltarLakshmi from '../assets/gs_altar_lakshmi.jpeg'
 import gsHawanFlames from '../assets/gs_hawan_flames.jpeg'
@@ -41,11 +41,7 @@ const photos = [
     alt: 'Satyanarayan puja altar',
     caption: 'Satyanarayan puja altar at a Yajmaan\'s home',
   },
-  {
-    src: gsSetupFloor1,
-    alt: 'Grah Shanti puja setup',
-    caption: 'Grah Shanti puja setup with agni',
-  },
+
   {
     src: gsSetupFloor2,
     alt: 'Grah Shanti decorated altar',
