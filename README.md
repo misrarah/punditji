@@ -1,1 +1,1 @@
-title: Pundit Alabhya Kumar Tiwari
+title: Pundit Alabhya Tiwari
